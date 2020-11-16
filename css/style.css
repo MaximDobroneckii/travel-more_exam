@@ -1,0 +1,46 @@
+.card-team__header {
+  text-align: center;
+}
+.card-team__header span {
+  color: #898f8f;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card-team__header h1 {
+  color: #FFCC00;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+.card-team__card-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.card-team__card-wrapper .photo-wrap {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.card-team__card-wrapper .photo-wrap::before {
+  content: "";
+  position: absolute;
+  right: 3px;
+  height: 1px;
+  width: 20%;
+  background: #3c3c3c;
+}
+.card-team__card-wrapper .card-team-descript {
+  width: 400px;
+  height: 400px;
+}
